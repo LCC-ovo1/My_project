@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>framelessWidget</class>
+ <widget class="QWidget" name="framelessWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+ background-color: rgba(200, 200, 200, 128)
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>30</number>
+       </property>
+       <property name="topMargin">
+        <number>30</number>
+       </property>
+       <property name="rightMargin">
+        <number>30</number>
+       </property>
+       <property name="bottomMargin">
+        <number>30</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="mainWidget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"> background-color: rgba(200, 200, 200,28)
+
+</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="mainLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="mainDisplayWidget" native="true">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="mouseTracking">
+               <bool>true</bool>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::StrongFocus</enum>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;</string>
+              </property>
+              <widget class="QPushButton" name="register_2">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>330</y>
+                 <width>66</width>
+                 <height>66</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>幼圆</family>
+                 <pointsize>15</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(90, 194, 198);
+    min-width: 60px;
+    min-height: 60px;
+    font-family: &quot;幼圆&quot;;
+    font-size: 15pt;
+    font-weight: 700; /* 增加字体的粗细 */
+    color: white;
+}
+
+QPushButton:hover {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: #1fab89;
+    min-width: 60px;
+    min-height: 60px;
+    font-family: &quot;幼圆&quot;;
+    font-size: 12pt;
+    font-weight: 700; /* 增加字体的粗细 */
+    color: white;
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="res/resc.qrc">
+                 <normaloff>:/picture/gif/Paper Plus.png</normaloff>:/picture/gif/Paper Plus.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="confirm">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>330</y>
+                 <width>66</width>
+                 <height>66</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>幼圆</family>
+                 <pointsize>15</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(90, 194, 198);
+    min-width: 60px;
+    min-height: 60px;
+    font-family: &quot;幼圆&quot;;
+    font-size: 15pt;
+    font-weight: 700; /* 增加字体的粗细 */
+    color: white;
+}
+
+QPushButton:hover {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: #1fab89;
+    min-width: 60px;
+    min-height: 60px;
+    font-family: &quot;幼圆&quot;;
+    font-size: 12pt;
+    font-weight: 700; /* 增加字体的粗细 */
+    color: white;
+}
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="res/resc.qrc">
+                 <normaloff>:/picture/gif/Tick Square.png</normaloff>:/picture/gif/Tick Square.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="username">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>170</y>
+                 <width>271</width>
+                 <height>60</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>48</width>
+                 <height>48</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>15</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+    border: 4px solid white;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+QLineEdit:focus {
+    border: 4px solid rgb(90, 194, 198);
+}
+</string>
+               </property>
+               <property name="placeholderText">
+                <string>用户名</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="password">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>250</y>
+                 <width>271</width>
+                 <height>60</height>
+                </rect>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>15</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="toolTipDuration">
+                <number>-1</number>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit {
+    border: 4px solid white;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    border-radius: 20px; 
+}
+
+QLineEdit:focus {
+    border: 4px solid rgb(90, 194, 198);
+}
+</string>
+               </property>
+               <property name="inputMethodHints">
+                <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+               </property>
+               <property name="inputMask">
+                <string notr="true"/>
+               </property>
+               <property name="echoMode">
+                <enum>QLineEdit::Password</enum>
+               </property>
+               <property name="placeholderText">
+                <string>密码</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label">
+               <property name="geometry">
+                <rect>
+                 <x>130</x>
+                 <y>10</y>
+                 <width>111</width>
+                 <height>111</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+    background-color: transparent;
+    border: none;
+	border: 4px solid white;
+	 border-radius: 50%;
+}
+QLabel:hover {
+ border: 4px solid rgb(90, 194, 198);
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="checkBox">
+               <property name="geometry">
+                <rect>
+                 <x>130</x>
+                 <y>330</y>
+                 <width>101</width>
+                 <height>66</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QCheckBox {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgb(90, 194, 198);
+    min-width: 40px;
+    min-height: 40; /* 设置勾选框的高度为0，隐藏勾选框 */
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+/* 鼠标悬停时的QCheckBox样式 */
+QCheckBox:hover {
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: #1fab89;
+    min-width: 40px;
+    min-height: 40; /* 设置勾选框的高度为0，隐藏勾选框 */
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgb(90, 194, 198);
+}
+
+QCheckBox::indicator:checked {
+    background-color: #1fab89;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="res/resc.qrc">
+                 <normaloff>:/picture/gif/Unlock.png</normaloff>:/picture/gif/Unlock.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>45</width>
+                 <height>45</height>
+                </size>
+               </property>
+              </widget>
+              <widget class="QLabel" name="login">
+               <property name="geometry">
+                <rect>
+                 <x>80</x>
+                 <y>110</y>
+                 <width>161</width>
+                 <height>71</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>幼圆</family>
+                 <pointsize>30</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+    background: transparent;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+QLabel:hover {
+  color: rgb(90, 194, 198);
+}
+</string>
+               </property>
+               <property name="text">
+                <string>LOGIN</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_2">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>110</y>
+                 <width>91</width>
+                 <height>60</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>26</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel {
+    background: transparent;
+    border: none;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 26pt;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+QLabel:hover {
+  color: #1fab89;
+    font-size: 12pt; /* 缩小字体 */
+	
+}
+</string>
+               </property>
+               <property name="text">
+                <string>......</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res/resc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
